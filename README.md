@@ -1,20 +1,17 @@
 # Analyze-A-B-Test-Results
 This project was completed as part of the course requirements of Udacity's Data Analyst Nanodegree certification.
 
-### Overview ###
-The project conducted A/B testing of user conversions on an old and new web page.
+### Overview: ###
+The project is about ***A/B testing*** where the goal is to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision.
 
-Steps included handling mismatched condition and page assignment, removing duplicate ids, hypothesis testing via bootstrapping and standard statistical tests, and multiple regression modelling.
-
-### Statistical Analysis:###
+### Statistical Analysis: ###
 * Bootstrapping sampling distributions and p-value calculations
 * Z-core tests
 * Logistic regression
 
-### Technologies Used ###
+### Technologies Used: ###
 * Python, Numpy, Pandas, Matplotlib, StatsModels, Scipy
 * Jupyter Notebook
 
-### Key Findings ###
-The conversion rate for the new page was not superior to that for the old page
-The country of the user did not impact the rate of conversion between the new and old page
+### Key Findings: ###
+None of the variables have significant p-values. Therefore, we failed to reject the null and conclude that there is not sufficient evidence to suggest that there is an interaction between country and page received that will predict whether a user converts or not. In the bigger picture, based on the available information, we do not have sufficient evidence to suggest that the new page results in more conversions than the old page.Since the sample size is large continuing the testing of the new_page is likely not necessary. It is best to focus on the development of another new landing page.
