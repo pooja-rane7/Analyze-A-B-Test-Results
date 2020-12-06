@@ -1,5 +1,5 @@
 # Analyze-A-B-Test-Results
-This project was completed as part of the course requirements of Udacity's Data Analyst Nanodegree certification.
+This project was completed as part of the course requirements of Udacity's [Data Analyst Nanodegree certification.](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
 
 ### Overview: ###
 The project is about ***A/B testing*** where the goal is to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision.
